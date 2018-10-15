@@ -6,7 +6,6 @@
   const currentUser = Discourse.User.current();
   if (currentUser) {
     currentUser.checkEmail().then(() => {
-      window.intercomSettings.name = currentUser.username;
       window.intercomSettings.email = currentUser.email;
       startIntercom();
     });
