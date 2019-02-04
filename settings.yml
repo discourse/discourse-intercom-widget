@@ -1,2 +1,5 @@
 app_id:
   default: ''
+extend_content_security_policy:
+  type: list
+  default: "script_src: https://js.intercomcdn.com/|script_src: https://widget.intercom.io/widget/"
