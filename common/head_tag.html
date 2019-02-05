@@ -3,7 +3,7 @@
   window.intercomSettings = {
     app_id: settings.app_id
   };
-  const currentUser = Discourse.User.current();
+  const currentUser = api.getCurrentUser();
   if (currentUser) {
     currentUser.checkEmail().then(() => {
       window.intercomSettings.email = currentUser.email;
