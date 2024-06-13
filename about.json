@@ -1,4 +1,5 @@
 {
-  "name": "Discourse Intercom Widget",
-  "component": true
+  "name": "Intercom Widget",
+  "component": true,
+  "about_url": "https://meta.discourse.org/t/intercom-widget/107517"
 }
